@@ -1,0 +1,131 @@
+
+.menu .nav-item
+{
+    background-color: white;
+    background-repeat:no-repeat;
+    display: inline-block;
+
+}
+
+.menu a
+{
+    color: rgb(90, 85, 85);
+}
+.menu a:hover
+{
+    color: rgb(90, 85, 85);
+}
+
+/* for menu bar hover and dropdown */
+.nav-item .dropdown-menu{
+    display: none;
+}
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu .dropdown-item:hover
+{
+    color: white;
+    background-color: rgb(44, 43, 43);
+}
+.nav-item .dropdown-menu{
+    margin-top:0;
+}
+
+
+#para
+{
+    font-size: 31px;
+    text-align: center;
+    padding: 2cm;
+    background-color: rgb(60, 57, 88);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#para button
+{
+    background-color: rgb(194, 25, 25);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+}
+  
+#hea
+{
+    font-size: 25px;
+    color: rgb(194, 25, 25);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hehe
+{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(194, 25, 25);
+
+}.but
+{
+    background-color: rgb(194, 25, 25);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+}
+
+/* footer links */
+#foot
+{
+    background-color:rgb(99, 10, 10);
+    color: white;
+    padding-left:  2cm;
+    padding-right:  2cm;
+}
+#foot ul li
+{
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+#foot li a
+{
+    text-decoration: none;
+    color: rgb(185, 160, 160);
+}
+
+#high
+{
+    color: white;
+    background-color: rgb(194, 25, 25);
+    text-align: center;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+}
+
+#high .col-md-4:hover
+{
+    background-color: rgb(99, 10, 10);
+    
+}
+#news
+{
+    margin-bottom: 1cm;
+    padding: 10px;
+}
+#news .col-md-3
+{
+    color: rgb(75, 70, 70);
+    background-color: rgb(240, 235, 235);
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#news b
+{
+    color: rgb(194, 25, 25);
+    size: 11;
+}
